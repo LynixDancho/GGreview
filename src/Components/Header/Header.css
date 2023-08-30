@@ -1,0 +1,93 @@
+.mothership{
+width: 100%;
+  display: flex;
+align-items: center;
+justify-content: space-between;  
+background-color: #363C5A;
+
+}
+
+#PostReview:hover{
+  fill: white;
+
+
+
+
+}
+.right-side{
+display: flex;
+align-items: center;
+
+}
+.middle-Side{
+  display: flex;
+  align-items: center;
+}
+.left-Side{
+display: flex;
+align-items: center;
+
+}
+.GGreview{
+  margin-left: 25px;
+  font-size: 20px;
+font-weight: 500;
+font-family: 'Inter', sans-serif;
+
+
+}
+.hamburber{
+  margin-left: 25px;
+}
+
+.SearchBar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+
+.SearchSvg {
+  position: absolute;
+  width: 45px;
+  top: 18px;
+  right: 10px; 
+  transform: translateY(-50%);
+}
+
+.SearchContainer{
+
+  position: relative;
+}
+.left-Side-Svg{
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+margin-left:11px;
+margin-right: 2px;
+
+
+
+}
+.Line{
+  margin-top: 0px;
+  height: 2px;
+
+
+}
+.SecondMotherShip{
+  display: flex;
+  align-items: center;
+  height: 45px;
+  background-color: #363C5A;
+}
+.SecondMotherShipFont{
+  font-family: 'Inter', sans-serif;
+  margin-left: 40px;
+  font-size: 15px;
+
+}

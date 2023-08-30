@@ -1,0 +1,232 @@
+.Top{
+  font-family: 'Inter', sans-serif;
+font-weight: 600;
+margin-top:30px ;
+font-size: 25px;
+margin-left: 10px;
+
+
+}
+.The-Two-Section{
+  display: flex;
+  align-items: center;
+  
+}
+.Game1{
+
+position: relative;
+width: 612px;
+height: 772px;
+margin-top: 30px;
+
+}
+
+.image{
+
+position: absolute;
+width: 500px;
+height: 297px;
+
+
+
+background: url(../../assets/image.png);
+
+}
+.Rating-Component{
+
+
+
+position: absolute;
+width: 133px;
+height: 30px;
+left: 340px;
+top: 340px;
+}
+
+
+.Star-12{
+
+
+
+position: absolute;
+left: 0%;
+right: 83.33%;
+top: 0%;
+bottom: 0%;
+
+
+border-radius: 1px;
+}
+
+
+.Star-13{
+/* Star 13 */
+
+position: absolute;
+left: 20.83%;
+right: 62.5%;
+top: 0%;
+bottom: 0%;
+
+
+border-radius: 1px;
+
+
+}
+
+.Star-14{
+
+position: absolute;
+left: 41.67%;
+right: 41.67%;
+top: 0%;
+bottom: 0%;
+
+
+border-radius: 1px;
+}
+
+.Star-15{
+
+position: absolute;
+left: 62.5%;
+right: 20.83%;
+top: 0%;
+bottom: 0%;
+
+
+border-radius: 1px;
+}
+
+.Star-16{
+
+position: absolute;
+left: 83.33%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+border-radius: 1px;
+}
+
+.Elden-Ring{
+
+position: absolute;
+width: 263px;
+height: 39px;
+left: 30px;
+top: 330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;}
+
+
+
+.p {
+  position: absolute;
+width: fit-content; 
+ height: auto; 
+  left: 20px;
+  top: 420px;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  overflow: hidden;
+
+  color: #FFFFFF;
+
+
+  
+  
+}
+
+
+.Rectangle-4133{ 
+
+box-sizing: border-box;
+
+position: absolute;
+width: 520px;
+height: 672px;
+left: 34px;
+
+
+border: 8px solid #262933;
+}
+.Bbbuttonn:hover{
+
+  /* Property 1=State */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 21px 10px;
+gap: 10px;
+
+position: absolute;
+background: #FFF9DE;
+border-radius: 20px;
+
+
+
+
+
+
+
+}
+.Bbbuttonn{
+
+
+  transition: background-color 0.3s ease;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 21px 10px;
+gap: 10px;
+
+position: absolute;
+width: 183px;
+height: 26px;
+left: 300px;
+top: 590px;
+
+cursor: pointer;
+background: #FDD836;
+border-radius: 20px;
+
+}
+.Learn-more{
+
+margin: 0 auto;
+width: 138px;
+height: 30px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
