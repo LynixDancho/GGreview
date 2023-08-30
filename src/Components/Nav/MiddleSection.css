@@ -8,6 +8,7 @@ margin-left: 10px;
 
 }
 .The-Two-Section{
+  justify-content: center;
   display: flex;
   align-items: center;
   
@@ -169,7 +170,7 @@ border: 8px solid #262933;
 /* Auto layout */
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+
 align-items: center;
 padding: 21px 10px;
 gap: 10px;

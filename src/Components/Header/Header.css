@@ -7,13 +7,6 @@ background-color: #363C5A;
 
 }
 
-#PostReview:hover{
-  fill: white;
-
-
-
-
-}
 .right-side{
 display: flex;
 align-items: center;
@@ -91,3 +84,36 @@ margin-right: 2px;
   font-size: 15px;
 
 }
+.Group-12{
+  display: flex;
+  width: 245px;
+  height: 47px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  }
+  .Rectangle-4142{
+  width: 200px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  background: #FDD836;
+  border-radius: 14px;
+  }
+  
+  .POST-A-REVIEW{
+  
+  width: fit-content; 
+  height: 30px;
+  margin-left: 25px;
+  
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  
+  color: #000000;
+  
+  }
