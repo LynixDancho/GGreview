@@ -9,6 +9,7 @@ const MiddleSection = () => {
       </div>
       <div className="The-Two-Section">
         <div className="Game1">
+          <h1 className="ranking">#1</h1>
           <div className="Rectangle-4133">
             <img src={img} className="image" alt="Game Image" />
 
@@ -105,6 +106,7 @@ const MiddleSection = () => {
           
         </div>
         <div className="Game1">
+        <h1 className="ranking">#2</h1>
           <div className="Rectangle-4133">
             <img src={img} className="image" alt="Game Image" />
 

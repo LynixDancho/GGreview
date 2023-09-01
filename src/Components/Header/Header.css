@@ -57,11 +57,16 @@ font-family: 'Inter', sans-serif;
 
   position: relative;
 }
+.leftt-Side-Svg{
+cursor: pointer;
+
+
+}
 .left-Side-Svg{
   transition: background-color 0.3s ease;
   cursor: pointer;
-margin-left:11px;
-margin-right: 2px;
+
+margin-right: 20px;
 
 
 
@@ -94,6 +99,8 @@ margin-right: 2px;
   
   }
   .Rectangle-4142{
+    transition: background-color 0.3s ease;
+
   width: 200px;
   height: 39px;
   display: flex;
@@ -106,7 +113,7 @@ margin-right: 2px;
   
   width: fit-content; 
   height: 30px;
-  margin-left: 25px;
+  margin-left: 30px;
   
   font-family: 'Inter';
   font-style: italic;
@@ -117,3 +124,7 @@ margin-right: 2px;
   color: #000000;
   
   }
+.Rectangle-4142:hover{
+background-color: #FFF9DE;
+
+}

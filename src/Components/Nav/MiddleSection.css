@@ -1,8 +1,16 @@
+.ranking{
+ color: var(--primary-color);
+}
+
+:root{
+
+  --primary-color:#FDD836;
+}
 .Top{
   font-family: 'Inter', sans-serif;
 font-weight: 600;
-margin-top:30px ;
-font-size: 25px;
+margin-top:50px ;
+font-size: 40px;
 margin-left: 10px;
 
 
@@ -11,6 +19,7 @@ margin-left: 10px;
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-top: 30px;
   
 }
 .Game1{
@@ -19,7 +28,7 @@ position: relative;
 width: 612px;
 height: 772px;
 margin-top: 30px;
-
+margin-right: 50px;
 }
 
 .image{

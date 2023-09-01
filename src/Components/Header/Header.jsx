@@ -17,6 +17,7 @@ const Header = () => {
           
           <svg
             className="SearchSvg"
+            margin-right="0"
             width="50"
             height="53"
             viewBox="0 0 50 53"
@@ -44,7 +45,7 @@ const Header = () => {
       </div>
       <div className="left-Side">
         <svg
-          className="left-Side-Svg"
+          className="leftt-Side-Svg"
           width="30"
           height="42"
           viewBox="0 0 45 42"
@@ -99,9 +100,8 @@ const Header = () => {
       </div>
       
     </div>
-    <div className="Line"><svg width="1000%" height="6" viewBox="0 0 1438 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="0.998264" y1="5.5" x2="1441" y2="0.500003" stroke="black"/>
-</svg>
+    <div className="Line">
+
 </div>
     <div className="SecondMotherShip">
 
