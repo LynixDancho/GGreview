@@ -13,3 +13,43 @@ width: 100%;
 
 border: 5px solid #262933;
 }
+.Picturee{
+width: 8%;
+
+display: inline-block;
+}
+.pik{
+  max-width: 100%;
+  height: auto;}
+  .HeaderofArticle{
+    margin-left: 1%;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-bottom: 2%;
+
+  }
+  .NewsSection{
+    margin-top: 2.5%;
+margin-left: 0.5%;
+    display: flex;
+    flex: 1;
+  }
+  .Article{
+    font-family: 'Inter';
+display: block;
+margin-left: 0.5%;
+
+
+
+  }
+  .ArticleSection{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .WhoAddedIt{
+color: #AAAAAA;    font-size: 15px;
+    margin-left: 1%;
+  }

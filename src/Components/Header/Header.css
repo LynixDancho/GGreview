@@ -4,8 +4,9 @@ width: 100%;
 align-items: center;
 justify-content: space-between;  
 background-color: #363C5A;
-
+height: 75px;
 }
+
 
 .right-side{
 display: flex;
@@ -26,19 +27,21 @@ align-items: center;
   font-size: 20px;
 font-weight: 500;
 font-family: 'Inter', sans-serif;
+cursor: pointer;
 
 
 }
 .hamburber{
   margin-left: 25px;
+  cursor: pointer;
 }
 
 .SearchBar {
   flex: 1;
   display: flex;
   align-items: center;
-  width: 500px;
-  height: 40px;
+  width: 550px;
+  height: 45px;
   border: none;
   padding: 10px;
   border-radius: 20px;
@@ -80,15 +83,82 @@ margin-right: 20px;
 .SecondMotherShip{
   display: flex;
   align-items: center;
-  height: 45px;
+  height: 55px;
   background-color: #363C5A;
 }
 .SecondMotherShipFont{
   font-family: 'Inter', sans-serif;
   margin-left: 40px;
-  font-size: 15px;
+  font-size: 18px;
+  position: relative;
+  cursor: default;
 
 }
+
+.HiddenCommunity2{
+  position: absolute;
+  margin-left: 120px;
+  top: 130px;
+  left: 20px;
+  background-color:var(--Secondary-color);
+  height: 80px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  }
+.HiddenCommunity1{
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  background-color:var(--Secondary-color);
+  height: 80px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  }
+.HiddenCommunity{
+position: absolute;
+top: 130px;
+left: 40px;
+background-color:var(--Secondary-color);
+height: 80px;
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+}
+
+.SecondMotherShipFont:hover + .HiddenCommunity {
+  display: block;
+}
+.SecondMotherShipFont:hover + .HiddenCommunity1 {
+  display: block;
+}
+.SecondMotherShipFont:hover + .HiddenCommunity2 {
+  display: block;
+}
+
+
+.UlOl{
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+}
+.UlOl li{
+  margin-left: 10px;
+  font-family: "inter";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+
 .Group-12{
   display: flex;
   width: 245px;

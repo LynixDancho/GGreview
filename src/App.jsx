@@ -4,15 +4,40 @@ import MiddleSection from './Components/Nav/MiddleSection'
 import CommunityDiscussion from './Components/CommunityDiscussion/Community.jsx'
 import GamingNews from './Components/Gaming-News/NewsForGames'
 
-const App = () => {
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// you can move that to separate file if you want
+const HomePage = () => {
   return (
-   <>
-    <Header />
-    <MiddleSection />
-  < CommunityDiscussion/>
-  <GamingNews/>
-   </>  
+    <div>
+      <MiddleSection />
+      <CommunityDiscussion/>
+      <GamingNews/>
+   </div>
   )
 }
 
-export default App
+// you can move that to separate file if you want
+const PostReviewPage = () => {
+  return (
+  <div>
+      <div>Idk post review here, do form and stuff</div>
+   </div>
+  )
+}
+
+function App() {
+  return (
+    <Router>
+      <>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/post-review" element={<PostReviewPage />} />
+        </Routes>
+      </>
+    </Router>
+  );
+}
+
+export default App;
