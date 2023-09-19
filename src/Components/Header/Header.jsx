@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import "./Header.css";
 import MySvg from "../../assets/134216_menu_lines_hamburger_icon.svg";
-
 function Header() {
+
 
   return (
     <>
@@ -10,7 +10,7 @@ function Header() {
       <div className="mothership">
         <div className="right-side">
           <img className="hamburber" src={MySvg} alt="Hamburger Icon" />
-          <p className="GGreview">GoodReviewGG</p>
+          <a href="/" className="GGreview">GoodReviewGG</a>
         </div>
 
         <div className="middle-Side">
@@ -65,8 +65,8 @@ function Header() {
             <div className="Rectangle-4142">
               <a href="/post-review">
                 <p className="POST-A-REVIEW"> Post Review </p>
-
               </a>
+
 
             </div>
 
@@ -107,37 +107,32 @@ function Header() {
 
       </div>
       <div className="SecondMotherShip">
-  <div>
-    <p className="SecondMotherShipFont HoverTarget1">Community</p>
-    <div className="HiddenCommunity HiddenCommunity1">
-      <ul className="UlOl">
-        <li>Hot Takes</li>
-        <li>Reviews</li>
-        <li>Journalist Takes</li>
-      </ul>
-    </div>
-  </div>
-  <div>
-    <p className="SecondMotherShipFont">Games</p>
-    <div className="HiddenCommunity1 HiddenCommunity1">
-      <ul className="UlOl">
-        <li>AAA Games</li>
-        <li>Popular Games</li>
-        <li> Games Of The Year</li>
-      </ul>
-    </div>
-  </div>
-  <div>
-    <p className="SecondMotherShipFont">Industry</p>
-    <div className="HiddenCommunity1 HiddenCommunity2">
-      <ul className="UlOl">
-        <li>News</li>
-        <li> Companies</li>
-        <li>Favourite Devs</li>
-      </ul>
-    </div>
-  </div>
-</div>
+        <div class="dropdown">
+          <p className='UlOl'>Community</p>
+          <div class="dropdown-content">
+            <a href="/HotTakes"> Hot Takes</a>
+            <a href="#"> Reviews</a>
+            <a href="#"> Journalist take</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <p className='UlOl'>Games</p>
+          <div class="dropdown-content">
+            <a href="#">AAA Games</a>
+            <a href="#">Popular Games</a>
+            <a href="#">Game Of The Year</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <p className='UlOl'>Industry</p>
+          <div class="dropdown-content">
+            <a href="#">News</a>
+            <a href="#">Companies</a>
+            <a href="#">Favourite Devs</a>
+          </div>
+        </div>
+
+      </div>
 
     </>
   );

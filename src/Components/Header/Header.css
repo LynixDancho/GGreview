@@ -86,72 +86,12 @@ margin-right: 20px;
   height: 55px;
   background-color: #363C5A;
 }
-.SecondMotherShipFont{
-  font-family: 'Inter', sans-serif;
-  margin-left: 40px;
-  font-size: 18px;
-  position: relative;
-  cursor: default;
 
-}
 
-.HiddenCommunity2{
-  position: absolute;
-  margin-left: 120px;
-  top: 130px;
-  left: 20px;
-  background-color:var(--Secondary-color);
-  height: 80px;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  }
-.HiddenCommunity1{
-  position: absolute;
-  top: 130px;
-  left: 150px;
-  background-color:var(--Secondary-color);
-  height: 80px;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  }
-.HiddenCommunity{
-position: absolute;
-top: 130px;
-left: 40px;
-background-color:var(--Secondary-color);
-height: 80px;
-width: 150px;
-display: flex;
-justify-content: center;
-align-items: center;
-display: none;
-}
-
-.SecondMotherShipFont:hover + .HiddenCommunity {
-  display: block;
-}
-.SecondMotherShipFont:hover + .HiddenCommunity1 {
-  display: block;
-}
-.SecondMotherShipFont:hover + .HiddenCommunity2 {
-  display: block;
-}
 
 
 .UlOl{
-  display: flex;
-  flex-direction: column;
-  
-  width: 100%;
-}
-.UlOl li{
-  margin-left: 10px;
+  margin-left: 20px;
   font-family: "inter";
   font-weight: bold;
   line-height: 1.5;
@@ -197,4 +137,46 @@ display: none;
 .Rectangle-4142:hover{
 background-color: #FFF9DE;
 
+}
+
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--Secondary-color);
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'inter';
+  font-size: 16px;
+}
+
+.dropdown-content a:hover {background-color: var(--Third-color);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+a:visited {
+  color: white;
 }

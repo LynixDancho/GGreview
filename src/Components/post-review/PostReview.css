@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container {
+    display: flex;
+  background-color: #1A1C23;
+  margin-bottom: 15px;
+}
+
+.card {
+  border-radius: 0px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 450px;
+  height: 240px;
+  background-color: #363B49;
+  padding: 20px 40px ;
+  margin-top: 15px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: 'inter';
+  margin-bottom: 15px;
+}
+
+
+
+.Thumbnail  {
+  font-family: 'inter';
+
+}
+.btn {
+  text-decoration: none;
+  background-color: #005af0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  font-family: 'inter';
+
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #005af0;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.everything{
+display: flex;
+  flex:1;
+  gap: 55px;
+}
+
+  .Title-Area{
+width: 100%;
+height: auto;
+margin-top: 15px;
+  }
+
+.Inpput {
+  display: block;
+  width: 90%;
+  font-size: 15px;
+  padding: 10px 5px;
+  font-family: 'inter';
+  margin-top: 5px;
+  background-color: #363B49;
+  color: white;
+}
+.fname{
+  
+  font-family: 'inter';
+  font-weight: 600;
+}
+.Lmao-Area{
+  display: flex;
+}
+.Right-Side{
+  flex-direction: column;
+width: 100%;
+  display: flex;
+}
+
+.Inpput2 {
+  position: relative;
+  display: block;
+  width: 90%; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
+  font-size: 15px;
+resize: none;
+  font-family: 'inter';
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: #363B49;
+  color: white;
+}
+.PutTheImages{
+  position: absolute;
+  top: 75%;
+  right: 8.4%;
+  cursor: pointer;
+  
+  }
+.TagsText{
+display: block;
+  width: 100%; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  font-size: 15px;
+  font-family: 'inter';
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: #363B49;
+  color: white;
+
+
+}
+.Tags{
+  font-family: 'inter';
+  margin-left: 12px;
+  font-weight: 600;
+
+}

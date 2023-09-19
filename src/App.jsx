@@ -3,7 +3,8 @@ import Header from './Components/Header/Header'
 import MiddleSection from './Components/Nav/MiddleSection'
 import CommunityDiscussion from './Components/CommunityDiscussion/Community.jsx'
 import GamingNews from './Components/Gaming-News/NewsForGames'
-
+import PostReviewPage from './Components/post-review/PostReviewPage.jsx'
+import HotTakes from './Components/HotTakes/HotTakes.jsx'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // you can move that to separate file if you want
@@ -17,14 +18,8 @@ const HomePage = () => {
   )
 }
 
-// you can move that to separate file if you want
-const PostReviewPage = () => {
-  return (
-  <div>
-      <div>Idk post review here, do form and stuff</div>
-   </div>
-  )
-}
+
+
 
 function App() {
   return (
@@ -34,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/post-review" element={<PostReviewPage />} />
+          <Route path="/HotTakes" element={<HotTakes />} />
         </Routes>
       </>
     </Router>
